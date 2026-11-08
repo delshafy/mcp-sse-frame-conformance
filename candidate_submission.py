@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """RFC 8259 & WHATWG EventSource incremental stream framing conformance candidate."""
 from __future__ import annotations
+import hashlib
 
 import codecs
 
